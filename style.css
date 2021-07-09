@@ -298,18 +298,25 @@ body{
     max-width: 100%;
 }
 
-.left{
-    text-align: center;
+.left h1{
+    /* text-align: center; */
+    font-size: 1.5rem;
+}
+
+.left p{
+    font-size: 0.5rem;
 }
 .left .btn{
     display: flex;
     justify-content: space-evenly;
-    padding: 0 5rem;
     flex-direction: column;
+    align-items: center;
 }
 
 .left button{
     margin: 1rem 1rem;
+    font-size: 0.5rem;
+    padding: 0.2rem 1.5rem;
 }
 
 .hidden-btn{
@@ -320,15 +327,27 @@ body{
     width: 100%;
 }
 
+.jalur-pendaftaran h1{
+    font-size: 1.5rem;
+}
 
 .flip-card{
     flex-direction: column;
 }
 
-.flip{
-    margin: auto;
+.front, .back{
+   width: 200px;
+   height: 250px;
 }
 
+.front{
+   margin-left: 58px;
+}
+
+
+.back{
+    right: 0;
+}
 
 .features{
     flex-direction: column;
@@ -337,8 +356,21 @@ body{
     text-align: center;
 }
 
+.features .features-head h1{
+    font-size: 1.5rem;
+}
+
+.features .features-head p{
+    font-size: 0.8rem;
+}
+
 .feature-pict img{
-width: 100%;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.list-features p{
+    font-size: 0.8rem;
 }
 
 
@@ -346,8 +378,16 @@ width: 100%;
     flex-direction: column;
     padding: 1rem 2rem;
 }
+.footer .sub-footer-1{
+    font-size: 0.8rem;
+}
 
 .footer .sub-footer-2{
     margin-top: 50px;
+    font-size: 0.8rem;
+}
+
+.footer .sub-footer-2 ul{
+   padding-inline-start: 0;
 }
 }
